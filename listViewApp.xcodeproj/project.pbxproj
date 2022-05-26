@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E64A591283E3C1500553EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A590283E3C1500553EA3 /* AppDelegate.swift */; };
+		9E64A593283E3C1500553EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A592283E3C1500553EA3 /* SceneDelegate.swift */; };
+		9E64A595283E3C1500553EA3 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A594283E3C1500553EA3 /* ReminderListViewController.swift */; };
+		9E64A598283E3C1500553EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E64A596283E3C1500553EA3 /* Main.storyboard */; };
+		9E64A59A283E3C1600553EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E64A599283E3C1600553EA3 /* Assets.xcassets */; };
+		9E64A59D283E3C1600553EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E64A59B283E3C1600553EA3 /* LaunchScreen.storyboard */; };
+		9E64A5A6283E3CE800553EA3 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5A5283E3CE800553EA3 /* Reminder.swift */; };
+		9E64A5A8283E52A100553EA3 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5A7283E52A100553EA3 /* Date+Today.swift */; };
+		9E64A5AB283E55DC00553EA3 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5AA283E55DC00553EA3 /* ReminderListViewController+DataSource.swift */; };
+		9E64A5AD283E5D2200553EA3 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5AC283E5D2200553EA3 /* UIColor+Today.swift */; };
+		9E64A5AF283E6EA000553EA3 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5AE283E6EA000553EA3 /* ReminderDoneButton.swift */; };
+		9E64A5B1283E6F8D00553EA3 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5B0283E6F8D00553EA3 /* ReminderListViewController+Actions.swift */; };
+		9E64A5B3283E8BB000553EA3 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5B2283E8BB000553EA3 /* ReminderViewController.swift */; };
+		9E64A5B6283E8EC000553EA3 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A5B5283E8EC000553EA3 /* ReminderViewController+Row.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E64A58D283E3C1500553EA3 /* listViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E64A590283E3C1500553EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E64A592283E3C1500553EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E64A594283E3C1500553EA3 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
+		9E64A597283E3C1500553EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E64A599283E3C1600553EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E64A59C283E3C1600553EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E64A59E283E3C1600553EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E64A5A5283E3CE800553EA3 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		9E64A5A7283E52A100553EA3 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		9E64A5AA283E55DC00553EA3 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		9E64A5AC283E5D2200553EA3 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		9E64A5AE283E6EA000553EA3 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
+		9E64A5B0283E6F8D00553EA3 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		9E64A5B2283E8BB000553EA3 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		9E64A5B5283E8EC000553EA3 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E64A58A283E3C1500553EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E64A584283E3C1500553EA3 = {
+			isa = PBXGroup;
+			children = (
+				9E64A58F283E3C1500553EA3 /* listViewApp */,
+				9E64A58E283E3C1500553EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E64A58E283E3C1500553EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E64A58D283E3C1500553EA3 /* listViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E64A58F283E3C1500553EA3 /* listViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				9E64A5A4283E3CBF00553EA3 /* Models */,
+				9E64A590283E3C1500553EA3 /* AppDelegate.swift */,
+				9E64A592283E3C1500553EA3 /* SceneDelegate.swift */,
+				9E64A5A9283E558600553EA3 /* ListViewController */,
+				9E64A5B4283E8E6C00553EA3 /* DetailViewController */,
+				9E64A596283E3C1500553EA3 /* Main.storyboard */,
+				9E64A599283E3C1600553EA3 /* Assets.xcassets */,
+				9E64A59B283E3C1600553EA3 /* LaunchScreen.storyboard */,
+				9E64A59E283E3C1600553EA3 /* Info.plist */,
+			);
+			path = listViewApp;
+			sourceTree = "<group>";
+		};
+		9E64A5A4283E3CBF00553EA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E64A5A5283E3CE800553EA3 /* Reminder.swift */,
+				9E64A5A7283E52A100553EA3 /* Date+Today.swift */,
+				9E64A5AC283E5D2200553EA3 /* UIColor+Today.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E64A5A9283E558600553EA3 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E64A594283E3C1500553EA3 /* ReminderListViewController.swift */,
+				9E64A5AA283E55DC00553EA3 /* ReminderListViewController+DataSource.swift */,
+				9E64A5B0283E6F8D00553EA3 /* ReminderListViewController+Actions.swift */,
+				9E64A5AE283E6EA000553EA3 /* ReminderDoneButton.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		9E64A5B4283E8E6C00553EA3 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E64A5B2283E8BB000553EA3 /* ReminderViewController.swift */,
+				9E64A5B5283E8EC000553EA3 /* ReminderViewController+Row.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E64A58C283E3C1500553EA3 /* listViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E64A5A1283E3C1600553EA3 /* Build configuration list for PBXNativeTarget "listViewApp" */;
+			buildPhases = (
+				9E64A589283E3C1500553EA3 /* Sources */,
+				9E64A58A283E3C1500553EA3 /* Frameworks */,
+				9E64A58B283E3C1500553EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = listViewApp;
+			productName = listViewApp;
+			productReference = 9E64A58D283E3C1500553EA3 /* listViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E64A585283E3C1500553EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9E64A58C283E3C1500553EA3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E64A588283E3C1500553EA3 /* Build configuration list for PBXProject "listViewApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E64A584283E3C1500553EA3;
+			productRefGroup = 9E64A58E283E3C1500553EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E64A58C283E3C1500553EA3 /* listViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E64A58B283E3C1500553EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E64A59D283E3C1600553EA3 /* LaunchScreen.storyboard in Resources */,
+				9E64A59A283E3C1600553EA3 /* Assets.xcassets in Resources */,
+				9E64A598283E3C1500553EA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E64A589283E3C1500553EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E64A5AD283E5D2200553EA3 /* UIColor+Today.swift in Sources */,
+				9E64A5B1283E6F8D00553EA3 /* ReminderListViewController+Actions.swift in Sources */,
+				9E64A5B3283E8BB000553EA3 /* ReminderViewController.swift in Sources */,
+				9E64A595283E3C1500553EA3 /* ReminderListViewController.swift in Sources */,
+				9E64A5A8283E52A100553EA3 /* Date+Today.swift in Sources */,
+				9E64A5B6283E8EC000553EA3 /* ReminderViewController+Row.swift in Sources */,
+				9E64A5AF283E6EA000553EA3 /* ReminderDoneButton.swift in Sources */,
+				9E64A591283E3C1500553EA3 /* AppDelegate.swift in Sources */,
+				9E64A593283E3C1500553EA3 /* SceneDelegate.swift in Sources */,
+				9E64A5A6283E3CE800553EA3 /* Reminder.swift in Sources */,
+				9E64A5AB283E55DC00553EA3 /* ReminderListViewController+DataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E64A596283E3C1500553EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E64A597283E3C1500553EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E64A59B283E3C1600553EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E64A59C283E3C1600553EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E64A59F283E3C1600553EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E64A5A0283E3C1600553EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E64A5A2283E3C1600553EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJD4AR8XMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = listViewApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sthembiso.listViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E64A5A3283E3C1600553EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJD4AR8XMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = listViewApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sthembiso.listViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E64A588283E3C1500553EA3 /* Build configuration list for PBXProject "listViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E64A59F283E3C1600553EA3 /* Debug */,
+				9E64A5A0283E3C1600553EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E64A5A1283E3C1600553EA3 /* Build configuration list for PBXNativeTarget "listViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E64A5A2283E3C1600553EA3 /* Debug */,
+				9E64A5A3283E3C1600553EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E64A585283E3C1500553EA3 /* Project object */;
+}
