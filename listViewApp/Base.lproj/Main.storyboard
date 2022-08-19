@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Reminder List View Controller-->
+        <!--To do list-->
         <scene sceneID="TGh-kn-tkL">
             <objects>
                 <collectionViewController id="Fq3-QW-FeZ" customClass="ReminderListViewController" customModule="listViewApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,7 +37,7 @@
                             <outlet property="delegate" destination="Fq3-QW-FeZ" id="w9q-cj-Ikk"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="QTR-6Z-hfp"/>
+                    <navigationItem key="navigationItem" title="To do list" id="QTR-6Z-hfp"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdE-5X-g6Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,8 +48,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ex7-ac-ccq" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UiA-zX-uAp">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="UiA-zX-uAp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
